@@ -1,0 +1,54 @@
+{% extends "homepage/temp_late.html" %}
+{% load static %}
+{% block title %}
+sblogs | login
+{% endblock title %}
+
+{% block section_block %}
+<!-- section -->
+<div class="section">
+	<!-- container -->
+	
+	<div class="container">
+		<!-- row -->
+		<div class="row">
+			<div class="col-md-5 col-md-offset-1">
+				<div class="section-row">
+					<h3>Send A Post</h3>
+					<form>
+						<div class="row">
+							<div class="col-md-7">
+								<div class="form-group">
+									<span>Email</span>
+									<input class="input" type="email" name="email">
+								</div>
+							</div>
+							<div class="col-md-7">
+								<div class="form-group">
+									<span>Subject</span>
+									<input class="input" type="text" name="subject">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<textarea class="input" name="message" placeholder="Message"></textarea>
+								</div>
+								<button class="primary-button">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- /row -->
+	</div>
+	<!-- /container -->
+</div>
+<!-- /section -->
+{% endblock section_block %}
+		
+	</header>
+	<!-- /Header -->
+
+	
+

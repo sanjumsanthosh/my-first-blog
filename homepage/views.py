@@ -4,5 +4,9 @@ from homepage.models import insert_blog
 
 # Create your views here.
 def main_page(request):
-    data = insert_blog.objects.all()
-    return render(request,'homepage/mainpage.html',{'posts':data})
+    
+    return render(request,'homepage/index.html')
+
+def login(request):
+    
+    return render(request,'homepage/contact.html')
